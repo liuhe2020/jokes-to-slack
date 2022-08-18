@@ -1,0 +1,19 @@
+{
+  "name": "jokes-to-slack",
+  "version": "1.0.0",
+  "description": "get jokes from api and send data as message to slack",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon index.js"
+  },
+  "author": "Liu He",
+  "license": "ISC",
+  "dependencies": {
+    "@slack/web-api": "^6.7.2",
+    "axios": "^0.27.2",
+    "node-cron": "^3.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.19"
+  }
+}
